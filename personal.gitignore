@@ -12,10 +12,12 @@
 **/*.fq.gz
 **/*.fai
 
-# SAM / BAM alignment and index files
+# SAM / BAM and other alignment files and associated index files
 **/*.sam
 **/*.bam
 **/*.bai
+**/*.psl
+**/*.maf
 
 # fast5 sequence files (oxford nanopore)
 **/*.fast5
@@ -31,6 +33,8 @@
 # ----------------
 _tmp/
 _utils/
+_archive/
+_sensitive/
 # ----------------
 
 
@@ -88,3 +92,16 @@ _utils/
 **/*.a
 # ----------------
 
+
+## Python temporary
+#
+# ----------------
+**/*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+# ----------------
